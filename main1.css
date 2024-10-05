@@ -1,0 +1,380 @@
+/* Остальная часть */
+
+#fon {
+
+position: relative;
+z-index: 0;
+top: 150px;
+
+background: #3245c4;
+height: 500px;
+width: 850px;
+
+border: 7px solid #3245c4;
+border-radius: 110px 110px;
+
+margin-left: 520px;
+
+}
+
+
+.css {
+
+list-style: None;
+
+font-size: 25px;
+font-family: Arial;
+text-align: center;
+position: relative;
+margin-top: -250px;
+z-index: 1
+}
+
+.Table-css {
+
+font-family: Arial;
+list-style: None;
+font-size: 24px;
+position: relative;
+top: 60px;
+
+}
+
+.a {
+
+position: relative;
+margin-left: 6px;
+top: -50px;
+
+height: 1px;
+
+
+}
+
+.a::before {
+
+content: '';
+
+display: block;
+
+border-radius: 90px 90px;
+
+position: absolute;
+
+height: 45px;
+width: 60px;
+margin-left: -2px;
+top: -6px;
+background: #3245c4;
+z-index: -1;
+transition: 1000ms;
+
+}
+
+.a:hover:before {
+
+width: 470px;
+
+}
+
+.a1 {
+
+color:  #05fffb;
+position: relative;
+margin-left: 90px;
+top: -79px;
+transition: 1000ms;
+
+}
+
+
+.bcs {
+
+position: relative;
+top: -60px;
+
+height: 1px;
+
+}
+
+.bcs::before {
+
+content: '';
+
+display: block;
+
+border-radius: 90px 90px;
+
+position: absolute;
+height: 50px;
+width: 420px;
+top: -7px;
+background: #03ff36;
+z-index: -1;
+transition: 1000ms;
+
+
+}
+
+.bcs:hover:before {
+
+width: 700px;
+
+}
+
+
+
+.b1 {
+
+color: #05fffb;
+position: relative;
+margin-left: 460px;
+top: -95px;
+
+}
+
+
+.s {
+
+position: relative;
+margin-top: -50px;
+
+height: 1px;
+
+}
+
+.s::before {
+
+content: '';
+
+display: block;
+
+border-radius: 90px 90px;
+
+position:absolute;
+height: 50px;
+width: 520px;
+top: -5px;
+background: #ff9e03;
+z-index: -1;
+transition: 1000ms;
+
+}
+
+.s:hover:before {
+
+width: 1050px;
+
+}
+
+
+.s1 {
+
+color: #05fffb;
+position: relative;
+margin-left: 550px;
+top: -30px;
+
+}
+
+.d {
+
+position: relative;
+margin-top: 10px;
+
+height: 1px;
+
+}
+
+.d::before {
+
+content: '';
+
+display: block;
+
+border-radius: 90px 90px;
+
+position: absolute;
+height: 50px;
+width: 430px;
+top: -10px;
+background: #faff00;
+z-index: -1;
+transition: 1000ms;
+
+
+}
+
+.d:hover:before {
+
+width: 700px;
+
+}
+
+
+.d1 {
+
+color: #05fffb;
+position: relative;
+margin-left: 450px;
+top: -30px;
+
+}
+
+.e {
+
+position: relative;
+margin-top: 10px;
+
+height: 1px;
+
+}
+
+.e::before {
+
+content: '';
+
+display: block;
+
+border-radius: 90px 90px;
+
+position: absolute;
+height: 50px;
+width: 90px;
+top: -7px;
+background: #ff0000;
+z-index: -1;
+transition: 1000ms;
+
+}
+
+
+.e:hover:before {
+
+width: 890px;
+
+}
+
+.e1 {
+
+color: #05fffb;
+position: relative;
+margin-left: 100px;
+top: -30px;
+
+
+}
+
+.font {
+
+border-radius: 90px 90px;
+
+
+position: absolute;
+height: 500px;
+width: 1200px;
+z-index: -1;
+background: #05fffb;
+
+}
+
+.red-css {
+
+color: red;
+font-size: 30px;
+position: relative;
+margin-left: 400px;
+top: -40px;
+
+height: 50px;
+width: 300px;
+
+}
+
+.red-css::before {
+
+content: '';
+
+border-radius: 90px 90px;
+
+display: block;
+
+position: absolute;
+height: 60px;
+width: 400px;
+margin-left: -50px;
+top: -10px;
+border: 1px solid transparent;
+z-index: -1;
+transition: 1000ms;
+
+}
+
+.red-css:hover:before {
+
+background: #ffbb00;
+border: 1px solid red;
+
+}
+
+
+
+
+h1 {
+font-family: Arial;
+font-style: italic;
+font-size: 50px;
+
+}
+
+.Class {
+
+font-family: Arial;
+font-size: 30px;
+
+}
+
+.Tabl {
+
+font-size: 30px;
+
+}
+
+
+body {
+
+background-color: #587993;
+color: #191a1b
+
+}
+
+
+.html {
+
+font-size: 20px;
+font-family: Arial;
+font-style: italic;
+
+}
+
+.image {
+
+
+background-image: url("https://www.bing.com/th?id=OHR.DolomitesSeiserAlm_ROW5696043794_1920x1200.jpg&rf=LaDigue_1920x1200.jpg");
+
+background-repeat: no-repeat;
+background-position: center;
+height: 199px;
+border-radius: 50px 50px;
+z-index: -1;
+transition: 1000ms;
+
+}
+
+.image:hover {
+
+
+transform: scale(0.97);
+
+}
+
